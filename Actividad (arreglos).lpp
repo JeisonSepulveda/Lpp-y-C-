@@ -1,0 +1,38 @@
+arreglo [7] de cadena [8] gallina
+arreglo [7] de cadena [12] pollos
+arreglo [7] de entero kiko
+entero numero
+
+inicio 
+	
+	gallina [2]<-"kiko"
+	pollos [3]<-"5"
+	pollos [1]<-"yo"
+	pollos [2]<-"tu"
+	pollos [4]<-"8"
+	pollos [5]<-"88"
+	pollos [6]<-"59"
+	pollos [7]<-"R*"
+	
+	escriba "Impresion del contenido del arreglo pollos: "
+	llamar nueva_linea
+	para numero<-1 hasta 7 haga
+		llamar nueva_linea
+		escriba "La posicion numero contiene [",numero,"] contiene ", pollos[numero]
+		llamar nueva_linea
+	
+	fin para
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+fin

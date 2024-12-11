@@ -1,0 +1,31 @@
+entero n1, n2, resultado
+caracter polo
+cadena [25] bebe
+real mi_numero,minumero
+booleano ingreso
+
+inicio
+	ingreso<-falso
+	n2<-34
+	escriba "Ingrese el numero"
+	llamar nueva_linea
+	lea n1
+	bebe<-"suyo"
+	polo<-'s'
+	//resultado<-n1*n2
+	//mientras((bebe="suyo") y (n1<=5))haga
+	mientras((polo='s') y (n1<=5))haga
+	llamar nueva_linea
+	escriba "voy en: ", n1
+	n1<-n1+1
+	llamar nueva_linea
+	escriba "Ingrese la caracter para continuar"
+	llamar nueva_linea
+	lea polo
+	llamar nueva_linea
+	fin mientras
+
+	escriba "La variable n1 quedo en: ", n1
+	
+fin
+

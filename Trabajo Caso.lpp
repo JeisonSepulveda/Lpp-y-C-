@@ -1,0 +1,42 @@
+entero n,n1,n2,r
+inicio
+	escriba "para seleccionar la opcion uno ingrese el numero uno"
+	llamar nueva_linea
+	escriba "para seleccionar la opcion dos ingrese el numero dos"
+	llamar nueva_linea
+	escriba "para seleccionar la opcion tres ingrese el numero tres"
+	llamar nueva_linea
+	escriba "para seleccionar la opcion ocho ingrese el numero ocho"
+	llamar nueva_linea
+	escriba "para seleccionar la opcion cinco ingrese el numero cinco"
+	llamar nueva_linea
+	escriba "para seleccionar la opcion once ingrese el numero once"
+	llamar nueva_linea
+	escriba "con otra opcion genera error"
+	llamar nueva_linea
+	escriba "ingrese una opcion a ejecutar"
+	llamar nueva_linea
+	lea n
+	caso n
+		1: escriba "uno"
+		2:
+		
+			llamar nueva_linea
+			escriba "Ingrese el primer numero para la suma"
+			llamar nueva_linea
+			lea n1
+			escriba "Ingrese el segundo numero para la suma"
+			llamar nueva_linea
+			lea n2
+			r<-n1+n2
+			escriba "El resultado de la suma es: ", r
+		3: escriba "tres"
+		4,77,890,0: escriba "Estoy en cuatro"
+		5: escriba "cinco"
+		11: escriba "once"
+	sino:
+		escriba "error"
+	fin caso
+	
+fin
+	

@@ -1,0 +1,98 @@
+arreglo [10] de cadena [20] coco
+arreglo [10] de caracter kiko
+arreglo [10] de entero pollo
+arreglo [10] de real cielo
+entero numero
+
+inicio 
+
+	escriba "Ingreso de elementos del arreglo"
+	llamar nueva_linea
+	escriba "Por favor ingrese los datos del arreglo (cadena)"
+	llamar nueva_linea
+	escriba "Tenga en cuenta que son exactamente 10 elementos que debe ingresar de maximo 20 caracteres"
+	llamar nueva_linea
+	
+para numero<-1 hasta 10 haga
+	llamar nueva_linea
+	lea coco [numero]
+fin para
+	llamar nueva_linea
+	escriba "A continuacion se le mostrara los elementos ingresados anteriormente en arreglo (cadena)"
+	llamar nueva_linea
+para numero<-1 hasta 10 haga
+	llamar nueva_linea
+	escriba "La posicion [",numero,"] tiene el elemento: ", coco [numero]
+	llamar nueva_linea
+fin para
+llamar nueva_linea
+
+	escriba "Ingreso de elementos del arreglo"
+	llamar nueva_linea
+	escriba "Por favor ingrese los datos del arreglo (caracter)"
+	llamar nueva_linea
+	escriba "Recuerde que caracter es solo una letra o un solo numero"
+	llamar nueva_linea
+	
+para numero<-1 hasta 10 haga
+	llamar nueva_linea
+	lea kiko [numero]
+fin para
+	llamar nueva_linea
+	escriba "A continuacion se le mostrara los elementos ingresados anteriormente en arreglo (caracter)"
+	llamar nueva_linea
+para numero<-1 hasta 10 haga
+	llamar nueva_linea
+	escriba "La posicion[", numero, "] tiene el elemento: ", kiko
+	llamar nueva_linea
+fin para
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fin

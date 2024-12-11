@@ -1,0 +1,15 @@
+entero x,h
+inicio
+para x<-1 hasta 5 haga
+	escriba "voy en:", x
+	llamar nueva_linea
+		para h<-3 hasta 6 haga 
+		escriba "voy en:", h
+		llamar nueva_linea
+		fin para 
+		escriba "estoy en:", h
+	fin para
+	escriba "ahora estoy en:", x, "y", h
+fin
+	
+	

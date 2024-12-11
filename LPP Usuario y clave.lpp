@@ -1,0 +1,35 @@
+entero n1,n2,n3
+cadena [41] correo
+cadena [41] clave
+
+inicio
+
+	n1<-3
+	mientras (n1>0) haga
+	
+	escriba " tienes: " , n1 , " intentos "
+	llamar nueva_linea
+	escriba "ingrese su usuario"
+	llamar nueva_linea
+	lea correo
+	escriba "ingrese su clave"
+	llamar nueva_linea
+	lea clave
+	
+	si ((correo="jeison@ma.com")y(clave="123")) entonces
+		llamar nueva_linea
+		escriba "Bienvenid@" 
+		n1<-0
+	sino 
+		llamar nueva_linea
+		escriba "Usuario o clave ingresados son incorrectos"	
+	fin si
+	
+	
+	
+	
+	n1<-n1-1
+fin mientras
+
+fin
+	

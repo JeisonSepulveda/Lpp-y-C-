@@ -1,0 +1,12 @@
+entero edad 
+cadena [25] pepe
+inicio 
+edad<-21 
+escriba "ingrese su nombre"
+llamar nueva_linea
+lea pepe 
+escriba "ingresa tu edad"
+lea edad 
+escriba "tu nombre es:",pepe,"y tienes",21
+lea "tu nombre es:",pepe,"y
+fin

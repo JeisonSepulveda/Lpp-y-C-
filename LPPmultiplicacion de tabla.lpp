@@ -1,0 +1,20 @@
+entero num1, num2, tabla
+inicio 
+escriba "ingrese el numero de la tabla a observar"
+llamar nueva_linea
+lea tabla
+	para num1<-1 hasta 10 haga 
+	num2<-num1*tabla
+	llamar nueva_linea
+	escriba tabla ," por ",num1," igual a: ",num2
+	
+llamar nueva_linea
+escriba "¿quieres continuar con otra tabla?"
+lea tabla
+	si (tabla="si") entonces
+	escriba "ingrese el numero de la tabla a observar"
+	llamar nueva_linea
+	
+fin para
+
+fin

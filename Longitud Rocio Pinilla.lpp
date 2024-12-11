@@ -1,0 +1,27 @@
+cadena [41] x
+entero n
+
+inicio
+
+	llamar inicializar_aleatorio()
+	x<-"Rocio Pinilla"
+	n<-longitud(x)
+	escriba "la longitud de la cadena ", x, " es: ", n
+	
+		
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+fin 
+
+

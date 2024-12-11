@@ -1,0 +1,43 @@
+arreglo [10] de cadena [15] kiko
+arreglo [10] de entero numero
+entero descanso,fila, columna, temporal, n1
+
+inicio
+	llamar inicializar_aleatorio
+para n1<-1 hasta 10 haga
+     numero[n1]<-aleatorio()*100
+	llamar nueva_linea 
+	escriba "El numero [",n1,"] generado aleatoriamente fue: ", numero[n1]
+	llamar nueva_linea	
+fin para
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "Los numeros generados aleatoriamente son"
+	llamar nueva_linea
+	llamar nueva_linea
+para descanso<-1 hasta 10 haga
+		escriba "En la posicion [", descanso,"] se genero el numero: ", numero[descanso]
+		llamar nueva_linea
+fin para
+
+		para fila<-1 hasta 10 haga
+			para columna<-1 hasta 10-fila haga
+				si (numero[columna]> numero[columna+1]) entonces
+					temporal<-numero[columna]
+					numero[columna]<-numero[columna+1]
+					numero[columna+1]<-temporal
+				fin si
+			fin para
+	  fin para
+	  	llamar nueva_linea
+		llamar nueva_linea
+		escriba "Los numeros ya organizados son"
+		llamar nueva_linea
+		llamar nueva_linea
+para descanso<-1 hasta 10 haga
+		escriba "En la posicion [", descanso,"] queda: ", numero[descanso]
+		llamar nueva_linea
+fin para
+
+
+fin

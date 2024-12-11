@@ -1,0 +1,39 @@
+arreglo [7] de cadena [8] gallina
+arreglo [7] de cadena [12] pollos
+arreglo [2] de entero kiko
+entero numero
+
+inicio
+
+	escriba "Ingreso de elementos del arreglo"
+	llamar nueva_linea
+	escriba "Por favor ingrese el contenido del arreglo de tipo cadena (Maximo 12 caracteres)"
+	llamar nueva_linea
+	para numero<-1 hasta 7 haga
+		llamar nueva_linea
+		lea pollos [numero]
+	fin para
+	llamar nueva_linea 
+	para numero<-1 hasta 7 haga
+		llamar nueva_linea
+		escriba "La posicion[",numero, "] tiene el elemento: ", pollos [numero]
+		llamar nueva_linea
+	fin para
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+fin
+	

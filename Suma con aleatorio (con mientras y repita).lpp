@@ -1,0 +1,42 @@
+entero n1, n2, p, q, r, numero, conta, p2
+caracter continuar 
+inicio 
+
+escriba "Programa para generar operación de suma aleatoria"
+llamar inicializar_aleatorio ()
+	repita
+		para conta<-1 hasta 2 haga 
+		p2<-aleatorio()*3
+		llamar nueva_linea
+	fin para
+		llamar nueva_linea
+		escriba "El numero generado aleatoriamente fue: ", p2
+		llamar nueva_linea
+		escriba "P quedo en: ", conta
+		llamar nueva_linea
+			si (p2=0) entonces
+				escriba "El numero generado fue CERO y no es posible generar la oprecaion con ese numero, Adios"
+				llamar nueva_linea
+			sino 
+				p<-1
+				mientras(p<=p2) haga
+						escriba "Suma: ",p
+						llamar nueva_linea
+						escriba "Ingrese el primer numero para la suma"
+						llamar nueva_linea
+						lea n1
+						escriba "Ingrese el segundo numero para la suma"
+						llamar nueva_linea
+						lea n2
+						r<-n1+n2
+						escriba "El resultado de la suma es: ", r
+						llamar nueva_linea
+						p<-p+1
+						llamar nueva_linea
+				fin mientras
+			fin si 
+		escriba "Desea terminar? Ingrese la tecla S"
+		llamar nueva_linea
+		lea continuar
+	hasta (continuar='S')
+fin

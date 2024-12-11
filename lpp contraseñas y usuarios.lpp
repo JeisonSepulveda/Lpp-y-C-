@@ -1,0 +1,20 @@
+cadena [20] usuario
+cadena [20] clave, Rclave
+inicio 
+Escriba "ingrese su usuario y clave"
+lea usuario
+lea clave 
+  			si(usuario = "cosa") y (clave = "rasa12@") entonces
+  			Escriba "repita su clave"
+  			llamar nueva_linea
+  			lea Rclave
+  						si (Rclave = clave) entonces
+  						Escriba "bienvenido"
+  						sino 
+  						Escriba "clave no valida"
+  						fin si 
+  		
+  			Escriba "usuario y clave no valida"
+  		 	fin si
+fin 
+  				

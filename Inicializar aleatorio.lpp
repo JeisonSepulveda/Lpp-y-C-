@@ -1,0 +1,15 @@
+entero  e, numero
+
+inicio	
+
+		llamar inicializar_aleatorio
+		para numero<-1 hasta 3 haga
+		e<-aleatorio()*3
+		llamar nueva_linea 
+		escriba "El numero generado fue ", e
+		llamar nueva_linea
+	
+	
+fin para
+
+fin

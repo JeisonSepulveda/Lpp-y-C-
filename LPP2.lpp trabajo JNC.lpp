@@ -1,0 +1,12 @@
+cadena[25]nombre
+entero edad
+inicio 
+edad<-21
+escriba "ingresa tu nombre"
+llamar nueva_linea
+lea nombre
+escriba "ingresa tu edad"
+lea edad
+escriba "tu nombre es:",nombre,"y tienes",edad
+llamar nueva_linea
+fin

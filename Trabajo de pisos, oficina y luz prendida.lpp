@@ -1,0 +1,84 @@
+entero r, n, S
+
+
+inicio
+	escriba "Esta usted en recepcion justo ahora"
+	llamar nueva_linea
+	escriba "Que piso necesita revisar?"
+	llamar nueva_linea
+	escriba "para seleccionar el piso uno, ingrese el numero uno"
+	llamar nueva_linea
+	escriba "para seleccionar el piso dos, ingrese el numero dos"
+	llamar nueva_linea
+	escriba "para seleccionar el piso tres, ingrese el numero tres"
+	llamar nueva_linea
+	escriba "para seleccionar el piso cuatro, ingrese el numero cuatro"
+	llamar nueva_linea
+	escriba "para seleccionar el piso cinco, ingrese el numero cinco"
+	llamar nueva_linea
+	escriba "para seleccionar el piso seis, ingrese el numero seis"
+	llamar nueva_linea
+	escriba "para seleccionar el piso siete, ingrese el numero siete"
+	llamar nueva_linea
+	escriba "para seleccionar el piso ocho, ingrese el numero ocho"
+	llamar nueva_linea
+	escriba "para seleccionar el piso nueve, ingrese el numero nueve"
+	llamar nueva_linea
+	escriba "para seleccionar el piso diez, ingrese el numero diez"
+	llamar nueva_linea
+	lea n
+	llamar nueva_linea
+	escriba "Estas revisando el piso: ", n, " que oficina desea revisar? "
+	llamar nueva_linea
+	
+			escriba "oficina 500, ingrese el numero 500"
+			llamar nueva_linea
+			escriba "oficina 501, ingrese el numero 501"
+			llamar nueva_linea
+			escriba "oficina 502, ingrese el numero 502"
+			llamar nueva_linea
+			escriba "oficina 503, ingrese el numero 503"
+			llamar nueva_linea
+			escriba "oficina 504, ingrese el numero 504"
+			llamar nueva_linea
+		
+			lea n 
+			llamar nueva_linea
+			escriba "estamos en la oficina: ", n
+			
+			
+
+			
+
+
+
+
+	
+	caso n
+	
+		500: escriba " el empleado numero 1 del piso fue el asignado para apagar la luz"
+		501: escriba " el empleado numero 3 del piso fue el asignado para apagar la luz"
+	//	502: escriba " 5 del piso fue el asignado para apagar la luz"
+		503: escriba " el empleado numero 2 del piso fue el asignado para apagar la luz"
+	//	504: escriba " 4 del piso fue el asignado para apagar la luz"
+		
+	sino:
+		llamar nueva_linea
+		n<-n
+		si ((n=502)o(n=504)) entonces
+		llamar nueva_linea
+		escriba " la luz sigue encendida"
+		llamar nueva_linea
+		escriba "quiere saber que empleado la apago?, ingrese S"
+		llamar nueva_linea
+		lea S
+		escriba "en el piso seleccionado en la oficina ", n, " el empleado que apago la luz fue el empleado numero 4"
+		
+	fin si	
+
+		
+		
+		
+fin caso
+
+fin
